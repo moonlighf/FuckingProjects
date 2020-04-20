@@ -169,7 +169,7 @@ class GetConvertibleBondInfo:
         SendEmailByGoogleMail(
             subject="今日可转债申购/上市情况",
             username="skymoon9406@gmail.com",
-            password="ycinrjvpjrrpzmcq",
+            password="",
             receivers=['trigger@applet.ifttt.com'],
         ).send_mail(
             way='common',
