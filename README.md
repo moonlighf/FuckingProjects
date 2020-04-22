@@ -8,14 +8,14 @@
   
 　　 &#8195;抓取东方财富上的每日可转债信息，发送邮件邮箱，利用手机APP（IFTTT）实现手机App的通知
 
-## Contributors ✨
+## Contributors
 &#8195;Thanks goes to these wonderful people
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/FanLiCUMT"><img src="https://avatars1.githubusercontent.com/u/42343863?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Jeroen Engels</b></sub></a></td>
+    <td align="center"><a href="https://github.com/FanLiCUMT"><img src="https://avatars1.githubusercontent.com/u/42343863?s=400&v=4" width="100px;" alt=""/><br /><sub><b>FanLi</b></sub></a></td>
   </tr>
 </table>
 
