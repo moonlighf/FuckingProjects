@@ -20,6 +20,7 @@ from retrying import retry
 from datetime import datetime
 from utils.loggers import Logger
 from json.decoder import JSONDecodeError
+from utils.SendMessage import SendMessage
 from utils.SendEMail import SendEmailByGoogleMail
 
 
@@ -165,17 +166,28 @@ class GetConvertibleBondInfo:
                 content = "Maybe There Are Some Mistakes Here"
         except ConnectionError:
             content = "Maybe There Are Some Mistakes Here"
-
-        SendEmailByGoogleMail(
-            subject="今日可转债申购/上市情况",
-            username="skymoon9406@gmail.com",
-            password="",
-            receivers=['trigger@applet.ifttt.com'],
-        ).send_mail(
-            way='common',
-            content=content,
-            files=None
-        )
+        try:
+            # 发送邮件
+            SendEmailByGoogleMail(
+                subject="今日可转债申购/上市情况",
+                username="skymoon9406@gmail.com",
+                password="",
+                receivers=['trigger@applet.ifttt.com'],
+            ).send_mail(
+                way='common',
+                content=content,
+                files=None
+            )
+        except Exception as e:
+            log.logger.error("Send Email Error And Error Message is: ", e)
+        try:
+            # 发送短信
+            SendMessage().send_message(
+                phone_number="",
+                message=content
+            )
+        except Exception as e:
+            log.logger.error("Send Message Error And Error Message is: ", e)
 
 
 if __name__ == '__main__':
