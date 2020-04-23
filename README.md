@@ -9,7 +9,7 @@
 　　 &#8195;抓取东方财富上的每日可转债信息，发送邮件到指定邮箱，利用手机APP（IFTTT）实现手机App的通知
 
 ## Contributors
-&#8195;Thanks goes to these wonderful people
+&#8195;感谢以下的作者对本项目的贡献的优质代码
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
