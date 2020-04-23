@@ -1,5 +1,5 @@
 ## FuckingProjects
-&#8195;what a fu*king project for myself and it may be interesing for you
+&#8195;一些对我来说曹蛋的项目，但说不定对你可能是有趣的。
 ### [01. FuckingShares](https://github.com/moonlighf/FuckingProjects/tree/master/FuckingShares)
 &#8195;主要是一些关于股票/基金/债券的项目
 
