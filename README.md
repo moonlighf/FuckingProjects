@@ -6,7 +6,7 @@
 　　**[1.1 GetDailyConvertibleBondInfo](https://github.com/moonlighf/FuckingProjects/tree/master/FuckingShares/GetDailyConvertibleBondInfo)**
   
   
-　　 &#8195;抓取东方财富上的每日可转债信息，发送邮件邮箱，利用手机APP（IFTTT）实现手机App的通知
+　　 &#8195;抓取东方财富上的每日可转债信息，发送邮件到指定邮箱，利用手机APP（IFTTT）实现手机App的通知
 
 ## Contributors
 &#8195;Thanks goes to these wonderful people
