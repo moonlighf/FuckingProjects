@@ -4,9 +4,12 @@
 &#8195;主要是一些关于股票/基金/债券的项目
 
 　　**[1.1 GetDailyConvertibleBondInfo](https://github.com/moonlighf/FuckingProjects/tree/master/FuckingShares/GetDailyConvertibleBondInfo)**
-  
-  
+
 　　 &#8195;抓取东方财富上的每日可转债信息，发送邮件到指定邮箱，利用手机APP（IFTTT）实现手机App的通知
+
+　　**[1.2 GetAllBondFundBest](https://github.com/moonlighf/FuckingProjects/tree/master/FuckingShares/GetAllBondFundBest)**
+
+　　 &#8195;抓取东方财富基金导购页面的债券型、股票型、混合型、指数型基金的每日净值和每日涨幅（包括多个维度，如近一月，近一周，近一年等）。
 
 ## Contributors
 &#8195;感谢以下的作者对本项目的贡献的优质代码
