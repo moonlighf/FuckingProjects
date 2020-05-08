@@ -58,7 +58,7 @@ class SaveDataToMysql:
 
     def delete_ip(self, ip_address, port):
         delete_sql = """
-        delete from ip_address where ip_address="%s" and port="%s" 
+        delete from ip_proxies where ip_address="%s" and port="%s" 
         """
         sql = delete_sql % (ip_address, port)
         self.db_client.insert_to_table_way2(sql=sql)
